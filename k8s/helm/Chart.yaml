@@ -6,7 +6,7 @@ description: A Helm chart for deploying the React Movie Library App
 type: application
 
 # Semantic Versioning (SemVer) is a recommended versioning scheme for Helm charts.
-version: 3.0.0
+version: 4.0.0
 
 # The appVersion field should reflect the version of the application being deployed.
 # It's common to use quotes for appVersion, especially if it's a non-Semantic Versioning value.

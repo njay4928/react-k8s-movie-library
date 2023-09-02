@@ -7,7 +7,7 @@ application_name: movie-library
 image:
   repository: movie-library
   pullPolicy: IfNotPresent
-  tag: "3.0"
+  tag: "4.0"
 
 imagePullSecrets: []
 nameOverride: ""

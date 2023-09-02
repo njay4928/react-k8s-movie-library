@@ -26,4 +26,4 @@ Please feel free to send pull request if you want to contribute!
 
 ## Authors
 
-- **Fidalgo** - _Development_ - [Fidalgo](https://github.com/fidalgodev)
+- **Navindu** - _Development_ - [Navindu](https://github.com/njay4928)

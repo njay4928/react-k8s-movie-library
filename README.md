@@ -1,4 +1,4 @@
-# Movie Library w/ ReactJS
+# Movie Library w/ ReactJS + K8s
 
 ![Thumbnail](thumbnail.png)
 

@@ -41,11 +41,13 @@ spec:
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
           env:
-          - name: REACT_APP_API
+          {{- range .Values.secrets }}
+          - name: {{ .env_name }}
             valueFrom:
               secretKeyRef:
-                name: moviedb-api-secret
-                key: moviedb_app_api
+                name: {{ .name }}
+                key: {{ .key }}
+          {{- end }}
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}

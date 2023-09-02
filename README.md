@@ -26,4 +26,4 @@ Please feel free to send pull request if you want to contribute!
 
 ## Authors
 
-- **Navindu** - _Development_ - [Navindu](https://github.com/njay4928)
+- [Navindu](https://github.com/njay4928)

@@ -1,24 +1,24 @@
 apiVersion: v2
-name: helm
-description: A Helm chart for React Movie Library App
+name: react-movie-library
+description: A Helm chart for deploying the React Movie Library App
 
-# A chart can be either an 'application' or a 'library' chart.
-#
-# Application charts are a collection of templates that can be packaged into versioned archives
-# to be deployed.
-#
-# Library charts provide useful utilities or functions for the chart developer. They're included as
-# a dependency of application charts to inject those utilities and functions into the rendering
-# pipeline. Library charts do not define any templates and therefore cannot be deployed.
+# Chart type indicates whether this is an 'application' or a 'library' chart.
 type: application
 
-# This is the chart version. This version number should be incremented each time you make changes
-# to the chart and its templates, including the app version.
-# Versions are expected to follow Semantic Versioning (https://semver.org/)
-version: 0.1.0
+# Semantic Versioning (SemVer) is a recommended versioning scheme for Helm charts.
+version: 3.0.0
 
-# This is the version number of the application being deployed. This version number should be
-# incremented each time you make changes to the application. Versions are not expected to
-# follow Semantic Versioning. They should reflect the version the application is using.
-# It is recommended to use it with quotes.
+# The appVersion field should reflect the version of the application being deployed.
+# It's common to use quotes for appVersion, especially if it's a non-Semantic Versioning value.
 appVersion: "1.16.0"
+
+# Consider adding maintainers to the chart to provide contact information.
+maintainers:
+  - name: Navindu Jayatilake
+    email: navindushane@gmail.com
+
+# Keywords provide additional information about the chart's purpose.
+keywords:
+  - react
+  - movie-library
+  - kubernetes

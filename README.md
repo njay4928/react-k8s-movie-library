@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You need to create an API KEY in [The Movie Database API](https://www.themoviedb.org/documentation/api)
+You need to create an API KEY in [The Movie Database API](https://www.themoviedb.org/documentation/api) and update the values.yaml file with the encoded API_KEY.
 
 ## Built With
 

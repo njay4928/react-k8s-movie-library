@@ -38,7 +38,7 @@ secrets:
     env_name: REACT_APP_API
     namespace: dev
     key: moviedb_app_api
-    value: Y2EwZjI4MTI5YzY4OWUzNWI5MTExN2VkYjZhMGM4ZWM=
+    value: <PUT_YOUR_ENCODED_API_KEY_HERE>
 
 ingress:
   enabled: true
